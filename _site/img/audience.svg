@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="389px" height="168px" viewBox="0 0 389 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
+    <title>audience</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="audience" sketch:type="MSLayerGroup">
+            <rect id="Rectangle-1-Copy-3" fill="#FFFFFF" sketch:type="MSShapeGroup" x="0" y="0" width="388.419142" height="168"></rect>
+            <path d="M10.3679868,148.460526 L378.357977,148.460526" id="Line-Copy-2" stroke="#E6E6E6" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <rect id="Rectangle-6" fill-opacity="0.2" fill="#48C0EB" sketch:type="MSShapeGroup" x="12" y="18" width="97" height="25.1495845"></rect>
+            <rect id="Rectangle-6" fill-opacity="0.4" fill="#48C0EB" sketch:type="MSShapeGroup" x="12" y="49.4369806" width="218" height="25.1495845"></rect>
+            <text id="Engagement-Levels" sketch:type="MSTextLayer" font-family="Avenir Next" font-size="10.3157895" font-weight="526" sketch:alignment="middle" fill="#5F6974">
+                <tspan x="275.156" y="23">Engagement Levels</tspan>
+            </text>
+            <rect id="Rectangle-6" fill="#48C0EB" sketch:type="MSShapeGroup" x="12" y="80.8739612" width="322" height="25.1495845"></rect>
+            <path d="M55.6485149,149.013158 L55.6485149,154.013158" id="Line" stroke="#E5E5E5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M232.648515,149.013158 L232.648515,154.013158" id="Line" stroke="#E5E5E5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M291.648515,149.013158 L291.648515,154.013158" id="Line" stroke="#E5E5E5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M350.648515,149.013158 L350.648515,154.013158" id="Line" stroke="#E5E5E5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M114.648515,149.013158 L114.648515,154.013158" id="Line" stroke="#E5E5E5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M173.648515,149.013158 L173.648515,154.013158" id="Line" stroke="#E5E5E5" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <rect id="Rectangle-6" fill-opacity="0.6" fill="#48C0EB" sketch:type="MSShapeGroup" x="12" y="112.310942" width="274" height="25.1495845"></rect>
+            <text id="45-—-55-y/o" sketch:type="MSTextLayer" font-family="Avenir Next" font-size="10.316" font-weight="normal" sketch:alignment="middle" fill="#5F6974">
+                <tspan x="23.993038" y="129">45 — 55 y/o</tspan>
+            </text>
+            <text id="35-—-45-y/o" sketch:type="MSTextLayer" font-family="Avenir Next" font-size="10.316" font-weight="normal" sketch:alignment="middle" fill="#5F6974">
+                <tspan x="23.993038" y="97">35 — 45 y/o</tspan>
+            </text>
+            <text id="25-—-35-y/o" sketch:type="MSTextLayer" font-family="Avenir Next" font-size="10.316" font-weight="normal" sketch:alignment="middle" fill="#5F6974">
+                <tspan x="23.993038" y="66">25 — 35 y/o</tspan>
+            </text>
+            <text id="20-—-25-y/o" sketch:type="MSTextLayer" font-family="Avenir Next" font-size="10.316" font-weight="normal" sketch:alignment="middle" fill="#5F6974">
+                <tspan x="23.993038" y="34">20 — 25 y/o</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

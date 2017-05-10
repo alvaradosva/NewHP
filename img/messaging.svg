@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="389px" height="168px" viewBox="0 0 389 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6 (26304) - http://www.bohemiancoding.com/sketch -->
+    <title>messaging</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="messaging">
+            <rect id="Rectangle-1-Copy-2" fill="#FFFFFF" x="1.13686838e-13" y="0" width="388.419142" height="168"></rect>
+            <path d="M182.5,136 C212.047236,136 236,112.047236 236,82.5 C236,52.9527644 212.047236,29 182.5,29 C152.952764,29 129,52.9527644 129,82.5 C129,112.047236 152.952764,136 182.5,136 Z" id="Oval-3" stroke="#0F2F43" stroke-width="16"></path>
+            <path d="M217.728407,42.2347854 C208.317281,33.9942045 195.991871,29 182.5,29 C166.87065,29 152.806635,35.7019897 143.025047,46.3888764 C134.314575,55.9055151 129,68.5821143 129,82.5 C129,98.4955962 136.019769,112.851637 147.146691,122.655507 C156.573538,130.96145 168.948361,136 182.5,136 C197.481107,136 211.024034,129.842425 220.735943,119.920113" id="Oval-3" stroke="#48C0EB" stroke-width="16"></path>
+            <path d="M263.5,70.5 L244.5,70.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M117.5,70.5 L98.5,70.5" id="Line-Copy" stroke="#979797" stroke-linecap="square"></path>
+            <text id="Mailer-A:" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#48C0EB">
+                <tspan x="37" y="73">Mailer A:</tspan>
+            </text>
+            <text id="Mailer-B:" font-family="AvenirNext-DemiBold, Avenir Next" font-size="10" font-weight="500" fill="#0F2F44">
+                <tspan x="277" y="73">Mailer B:</tspan>
+            </text>
+            <text id="click-through-rate" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#5F6974">
+                <tspan x="277" y="116">click-through rate</tspan>
+            </text>
+            <text id="25%" font-family="AvenirNext-Regular, Avenir Next" font-size="25" font-weight="normal" fill="#5F6974">
+                <tspan x="277" y="102">25%</tspan>
+            </text>
+            <text id="click-through-rate" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#5F6974">
+                <tspan x="37" y="116">click-through rate</tspan>
+            </text>
+            <text id="Type-something" font-family="AvenirNext-Regular, Avenir Next" font-size="25" font-weight="normal" fill="#5F6974">
+                <tspan x="37" y="102">75%</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

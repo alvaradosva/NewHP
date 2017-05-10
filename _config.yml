@@ -1,15 +1,19 @@
-# Site Settings
-title: Start Jekyll
-email: taniarascia@gmail.com
-description: >
-  A guide to getting started with Jekyll.
-baseurl: "/startjekyll"
-url: "http://taniarascia.github.io"
-twitter_username: taniarascia
-github_username:  taniarascia
-# Build Settings
-sass:
-  sass_dir: _sass
-include: ['_pages']
-kramdown:
-  input: GFM
+---
+title: WebConfs - A blog about web conferences
+timezone: UTC
+collections:
+  employees:
+    title: Employees
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: coolwebconfs@gmail.com
+description: A blog about my favorite web conferences.
+url: http://webconfs.me
+twitter_username: guilh
+markdown: kramdown
+permalink: "/:title"

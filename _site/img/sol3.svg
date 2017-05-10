@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="389px" height="168px" viewBox="0 0 389 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6 (26304) - http://www.bohemiancoding.com/sketch -->
+    <title>sol3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sol3">
+            <g id="Group-22-Copy">
+                <g id="time-copy-2" fill="#FFFFFF">
+                    <rect id="Rectangle-1" x="0.290429043" y="0" width="388.419142" height="168"></rect>
+                </g>
+                <text id="Email" font-family="AvenirNext-Regular, Avenir Next" font-size="10.3199997" font-weight="normal" fill="#5F6974">
+                    <tspan x="61.5432404" y="158">Email</tspan>
+                </text>
+                <text id="SMS" font-family="AvenirNext-Regular, Avenir Next" font-size="10.3199997" font-weight="normal" fill="#5F6974">
+                    <tspan x="315.10776" y="158">SMS</tspan>
+                </text>
+                <text id="Internet-Ad" font-family="AvenirNext-Regular, Avenir Next" font-size="10.3199997" font-weight="normal" fill="#5F6974">
+                    <tspan x="173.034361" y="158">Internet Ad</tspan>
+                </text>
+                <g id="Group-23" transform="translate(4.000000, 6.000000)">
+                    <text id="Views" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#5F6974">
+                        <tspan x="101" y="10">Views</tspan>
+                    </text>
+                    <text id="Opened" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#5F6974">
+                        <tspan x="174.554671" y="10">Opened</tspan>
+                    </text>
+                    <text id="Click-through" font-family="AvenirNext-Regular, Avenir Next" font-size="10" font-weight="normal" fill="#5F6974">
+                        <tspan x="250.48343" y="10">Click-through</tspan>
+                    </text>
+                    <rect id="Rectangle-86" fill="#0F2F43" x="234" y="5" width="12" height="5" rx="3"></rect>
+                    <rect id="Rectangle-86" fill="#48C0EB" x="158" y="5" width="12" height="5" rx="3"></rect>
+                    <rect id="Rectangle-86" fill="#E4F3FC" x="83" y="5" width="12" height="5" rx="3"></rect>
+                    <g id="Group-29" transform="translate(0.000000, 22.000000)">
+                        <text id="10" font-family="AvenirNext-Regular, Avenir Next" font-size="6" font-weight="normal" fill="#5F6974">
+                            <tspan x="0" y="96">10</tspan>
+                        </text>
+                        <text id="20" font-family="AvenirNext-Regular, Avenir Next" font-size="6" font-weight="normal" fill="#5F6974">
+                            <tspan x="0" y="66">20</tspan>
+                        </text>
+                        <text id="30" font-family="AvenirNext-Regular, Avenir Next" font-size="6" font-weight="normal" fill="#5F6974">
+                            <tspan x="0" y="35">30</tspan>
+                        </text>
+                        <g id="Group-28" transform="translate(10.000000, 0.000000)" stroke="#ECECEC" stroke-linecap="square">
+                            <path d="M1,109.501144 L1,0.450619459" id="Line"></path>
+                            <path d="M1.49885559,110 L3.49885559,110" id="Line"></path>
+                            <path d="M1.49885559,79 L3.49885559,79" id="Line"></path>
+                            <path d="M1.49885559,95 L6.49885559,95" id="Line"></path>
+                            <path d="M1.49885559,63 L6.49885559,63" id="Line"></path>
+                            <path d="M1.49885559,33 L6.49885559,33" id="Line"></path>
+                            <path d="M1.49885559,49 L3.49885559,49" id="Line"></path>
+                            <path d="M1.49885559,19 L3.49885559,19" id="Line"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <rect id="Rectangle-86" fill="#E4F3FC" x="55" y="73" width="12" height="64" rx="3"></rect>
+            <rect id="Rectangle-86" fill="#E4F3FC" x="180" y="92" width="12" height="45" rx="3"></rect>
+            <rect id="Rectangle-86" fill="#E4F3FC" x="306" y="93" width="12" height="44" rx="3"></rect>
+            <rect id="Rectangle-86" fill="#48C0EB" x="319" y="73" width="12" height="64" rx="3"></rect>
+            <rect id="Rectangle-86" fill="#0F2F43" x="332" y="83" width="12" height="54" rx="3"></rect>
+            <rect id="Rectangle-86" fill="#48C0EB" x="193" y="63" width="12" height="74" rx="3"></rect>
+            <rect id="Rectangle-86" fill="#0F2F43" x="206" y="92" width="12" height="45" rx="3"></rect>
+            <rect id="Rectangle-86" fill="#48C0EB" x="68" y="38" width="12" height="99" rx="3"></rect>
+            <rect id="Rectangle-86" fill="#0F2F43" x="81" y="53" width="12" height="84" rx="3"></rect>
+        </g>
+    </g>
+</svg>
