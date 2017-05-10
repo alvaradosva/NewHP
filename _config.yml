@@ -1,19 +1,20 @@
 ---
-title: WebConfs - A blog about web conferences
+title: Bluelabs
 timezone: UTC
 collections:
-  employees:
-    title: Employees
-    output: true
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
     output: true
-email: coolwebconfs@gmail.com
+email: bluelabs@gmail.com
 description: A blog about my favorite web conferences.
-url: http://webconfs.me
-twitter_username: guilh
+url: http://bluelabs.com
+twitter_username: Blue_Labs
 markdown: kramdown
 permalink: "/:title"
+github:
+  url: http://localhost:4000
+  baseurl: NewHP
+
