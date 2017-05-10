@@ -8,10 +8,18 @@
     <title>Welcome to BlueLabs</title>
 
     <!-- Bootstrap -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/mystyle.css" rel="stylesheet">
+<!--     <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/mystyle.css" rel="stylesheet"> -->
+
+
+    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/mystyle.css.css" | prepend: site.baseurl }}">
+
+
     <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/2781dda7-3c6f-40ab-b213-73631c215c32.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
