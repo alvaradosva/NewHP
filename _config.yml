@@ -17,4 +17,3 @@ permalink: "/:title"
 github:
   url: http://localhost:4000
   baseurl: NewHP
-
