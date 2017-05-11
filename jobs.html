@@ -1,0 +1,186 @@
+---
+layout: default
+---
+
+<!-- MAIN HERO START -->
+  <div class="jobs-unit">
+
+  <!-- START NAVIGATION -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="/"><img src="/img/logo.svg"></a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/">Home</a></li>
+          <li class="dropdown">
+            <a href="/services" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Solutions <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/services">General Services</a></li>
+              <li><a href="/upx">upX</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Industries<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/advocacy">Advocacy</a></li>
+              <li><a href="/commercial">Commercial & PR</a></li>
+              <li><a href="/government">Government</a></li>
+              <li><a href="/healthcare">Healthcare</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Story<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/about">About Us</a></li>
+              <li><a href="/team">Our Team</a></li>
+              <li><a href="/jobs">Careers</a></li>
+            </ul>
+          </li>
+          <li class="ctabutton"><a href="/contact" class="contactbtn btn-default btn-large">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- END NAVIGATION -->
+
+  <!-- HERO AREA -->
+    <div class="container centered">
+      <div class="col-md-10 col-md-offset-1">
+        <h1 class="heroheader">Careers</h1>
+          <h2 class="subline">Operating in a crowded field, advocacy organizations work hard to identify and activate their supporters to change the world.</h2>
+      </div>
+    </div>
+  <!-- END HERO AREA -->
+  </div>
+
+  <!-- TAILORED SOLUTIONS -->
+    <div class="container">
+      <h1 class="centered buffer-top-md buffer-bottom-md">Life at BlueLabs</h1>
+
+        <div class="row">
+          <div class="col-md-6">
+            <img src="/img/globeicon.svg" class="perkicon" alt="globe icon">
+            <h5>DIRECT IMPACT</h5>
+            <p class="tstext">From improving access to services to helping homeless youth and encouraging civic engagement, we are each integral in supporting our partner's missions for social good.</p>
+          </div>
+          <div class="col-md-6">
+            <img src="/img/health.svg" class="perkicon"  alt="medical shield icon">
+            <h5>FANTASTIC BENEFITS</h5>
+            <p class="tstext buffer-bottom-sml">A premier health insurance plan, 401k match, generous vacation and holidays, pre-tax transportations options, and paid parental leave, among other great perks.</p>
+          </div>
+        </div>
+
+      <div class="row">
+        <div class="col-md-6">
+            <img src="/img/fun.svg" class="perkicon"  alt="joystick icon">
+            <h5>DYNAMIC WORKSPACE</h5>
+            <p class="tstext">Fun work environment: invested team, arcade games, on-site gym, volunteer opportunitites, bean bag chairs, artisan coffee, and plenty of snacks in the kitchen.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="/img/building.svg" class="perkicon"  alt="building icon">
+            <h5>DOWNTOWN LOCATION</h5>
+            <p class="tstext buffer-bottom-md">Work in the heart of the city, one block from the White House, at the center of vibrant restaurants, shopping and all the action.</p>
+        </div>
+      </div>
+    </div>
+
+  <hr class="linebreak">
+  <!-- END TAILORED SOLUTIONS -->
+
+
+  <div class="container">
+
+      <div class="row">
+        <div class="col-md-12 centered buffer-bottom-md">
+          <div class="header1">
+            <h3 class="stwithsub buffer-top-md"> Open Positions</h3>
+            <p class="subheading"> Join our team of strategists, data scientists, and software engineers as we leverage our groundbreaking technology to help identify prospective voters, donors and targets for a variety of sectors including nonprofits, campaigns, and human services providers.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- POSITION 1 -->
+      <div class="col-md-12">
+      <div id="jobs-container">
+        <div class="row">
+
+        <div class="col-md-9">
+          <h6 class="careerheader"></h6>
+        </div>
+
+        <div class="col-md-3 socialicons pull-right"> 
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <p class="description">
+            <a href="#"></a>
+              </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row">
+    <script>
+      // REPLACE "LEVERDEMO" WITH YOUR COMPANY NAME BELOW
+      url = 'https://api.lever.co/v0/postings/bluelabs?mode=json'
+
+      //Setting up the structure for each job posting
+      function createJobs(_data) {
+        for(i = 0; i < _data.length; i++) {
+          var posting = _data[i] 
+          var title = posting.text
+          var description = posting.description  
+          //Making each job description shorter than 250 characters
+          var shortDescription = $.trim(description).substring(0, 250)
+          .replace('\n', ' ') + "...";
+          var location = posting.categories.location
+          var commitment = posting.categories.commitment
+          var team = posting.categories.team
+          var link = posting.hostedUrl
+
+          $('#jobs-container').append(
+
+            '<div class="col-md-3 socialicons pull-right">'+
+              '<a href="https://twitter.com/intent/tweet?text=Check%20out%20these%20great%20opportunity%20at%20www.bluelabs.com/jobs!" class="socialbutton"><i class="fa fa-twitter fa-lg fa-fw"></i></a>'+
+              '<a href="http://www.facebook.com/sharer.php?u=http://www.bluelabs.com/jobs " class="socialbutton"><i class="fa fa-facebook fa-lg fa-fw"></i></a>'+
+              '<a href="'+link+'" class="applybutton">APPLY</a>'+
+              '</div>'+
+                '</div>'+
+            '<div class="job '+team+' '+location+' '+commitment+'">' +
+              '<h6 class="job-title" href="'+link+'"">'+title+'</h6>' +
+              '<p class="tags"><span>'+team+'</span><span><br>'+location+'</span><span> | '+commitment+'</span></p>' +
+            // '<div class="row">'+
+              '<p class="description"><span>'+shortDescription+'</span></p>' +
+              '<a class="vimportant" href="'+link+'">Learn more</a>' + 
+              '<div class="linebreak"></div>'+
+            '</div>'
+
+          );
+        }
+      }
+
+      //Fetching job postings from Lever's postings API
+      $.ajax({
+        dataType: "json",
+        url: url,
+        success: function(data){
+          createJobs(data);}
+      });
+    </script>
+  </div>
+
+</div>
