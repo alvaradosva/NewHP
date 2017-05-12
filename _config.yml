@@ -15,7 +15,7 @@ collections:
     title: Uploads
     output: true
 email: bluelabs@gmail.com
-description: A blog about my favorite web conferences.
+description: 
 url: http://bluelabs.com
 twitter_username: Blue_Labs
 markdown: kramdown
@@ -23,3 +23,14 @@ permalink: "/:title"
 github:
   url: http://localhost:4000
   baseurl: NewHP
+defaults:
+  -
+    scope:
+      path: ""
+      type: "employees"
+    values:
+      person:
+        image:
+        link:
+
+
