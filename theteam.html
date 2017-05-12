@@ -75,20 +75,22 @@ layout: default
 
       <div class="row">
         <div class="maincontainer">
+          
           {% for employee in site.employees %}
             <!-- <li class="post__item"> -->
             <div class="col-md-3 teammember">
-                <img src="{{ employee.person.image }}"/>
-                <a class="post__title" href="{{ employee.person.link }}"><i class="fa fa-linkedin fa-lg fa-fw"></i></a>
-                <a class="post__title" href="{{ employee.url | prepend: site.baseurl }}">{{ employee.title }} </a>
-                <div class="post__meta">
-                  <b class="post__author"></b>
-                  <b class="post__sep">&#x25cf;</b>
-                  <b class="post__date">{{ employee.date | date: "%b %-d, %Y" }}</b>
-                </div>
+            <div class="image-wrapper">
+                <span class="content">
+                  <a class="post__title" href="{{ employee.person.link }}"><i class="fa fa-linkedin fa-lg fa-fw"></i>hgi</a>
+                  <a class="post__title" href="{{ employee.url | prepend: site.baseurl }}">{{ employee.title }} </a>
+                </span>
+              <img src="{{ employee.person.image }}"/>
+              <p>{{ employee.person.title }}</p>
             <!-- </li> -->
             </div>
+          </div>
           {% endfor %}
+
         </div>
       </div>
 
