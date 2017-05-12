@@ -80,12 +80,12 @@ layout: default
             <!-- <li class="post__item"> -->
             <div class="col-md-3 teammember">
               <div class="image-wrapper">
+                <img src="{{ employee.person.image }}"/>
+              </div>
                 <a class="post__title" href="{{ employee.person.link }}"><i class="fa fa-linkedin fa-lg fa-fw"></i></a>
                 <a class="post__title" href="{{ employee.url | prepend: site.baseurl }}">{{ employee.title }} </a>
-                <img src="{{ employee.person.image }}"/>
                 <p>{{ employee.person.title }}</p>
               <!-- </li> -->
-              </div>
             </div>
           {% endfor %}
 
