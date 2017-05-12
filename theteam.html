@@ -78,7 +78,7 @@ layout: default
 
         {% for employee in site.employees %}
           <li class="post__item">
-            <img class="post_image" src="{{ employee.image }}">
+            <img class="post_image" src="{{ page['image'] }}">
             <a class="post__title" href="{{ employee.url | prepend: site.baseurl }}">{{ employee.title }} </a>
             <div class="post__meta">
               <b class="post__author"></b>
