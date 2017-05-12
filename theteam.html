@@ -79,16 +79,14 @@ layout: default
           {% for employee in site.employees %}
             <!-- <li class="post__item"> -->
             <div class="col-md-3 teammember">
-            <div class="image-wrapper">
-                <span class="content">
-                  <a class="post__title" href="{{ employee.person.link }}"><i class="fa fa-linkedin fa-lg fa-fw"></i>hgi</a>
-                  <a class="post__title" href="{{ employee.url | prepend: site.baseurl }}">{{ employee.title }} </a>
-                </span>
-              <img src="{{ employee.person.image }}"/>
-              <p>{{ employee.person.title }}</p>
-            <!-- </li> -->
+              <div class="image-wrapper">
+                <a class="post__title" href="{{ employee.person.link }}"><i class="fa fa-linkedin fa-lg fa-fw"></i></a>
+                <a class="post__title" href="{{ employee.url | prepend: site.baseurl }}">{{ employee.title }} </a>
+                <img src="{{ employee.person.image }}"/>
+                <p>{{ employee.person.title }}</p>
+              <!-- </li> -->
+              </div>
             </div>
-          </div>
           {% endfor %}
 
         </div>
