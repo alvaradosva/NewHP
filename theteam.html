@@ -68,33 +68,33 @@ layout: default
   <div class=container>
     <div class="col-md-12">
     
-    <div class="col-md-10 col-md-offset-1">
-      <h1 class="buffer-top-md centered">Our Team</h1>
-      <p class="buffer-bottom-md centered">At BlueLabs we are a team of impact innovators. We're data scientists, software engineers, solution managers and creative problem solvers. We help our partners make better decisions by getting the most out of their data, so that they can do the most good.</p>
-    </div>
+      <div class="col-md-10 col-md-offset-1">
+        <h1 class="buffer-top-md centered">Our Team</h1>
+        <p class="buffer-bottom-md centered">At BlueLabs we are a team of impact innovators. We're data scientists, software engineers, solution managers and creative problem solvers. We help our partners make better decisions by getting the most out of their data, so that they can do the most good.</p>
+      </div>
 
-    <div class="row">
+      <div class="row">
         <div class="maincontainer">
-
-        {% for employee in site.employees %}
-          <!-- <li class="post__item"> -->
-          <div class="col-md-3 teammember">
-              <img class="post_image" src="{{ page['image']| prepend: site.baseurl }}">
-              <a class="post__title" href="{{ employee.url | prepend: site.baseurl }}">{{ employee.title }} </a>
-              <a class="post__title" href="{{ employee.url | prepend: site.baseurl }}">{{ page['link'] }} </a>
-              <div class="post__meta">
-                <b class="post__author"></b>
-                <b class="post__sep">&#x25cf;</b>
-                <b class="post__date">{{ employee.date | date: "%b %-d, %Y" }}</b>
-              </div>
-              <a class="btn--default" href="{{ employee.url | prepend: site.baseurl }}">CHANGED</a>
-          <!-- </li> -->
-          </div>
-        {% endfor %}
+          {% for employee in site.employees %}
+            <!-- <li class="post__item"> -->
+            <div class="col-md-3 teammember">
+                <img class="post_image" src="{{ page['image']| prepend: site.baseurl }}">
+                <a class="post__title" href="{{ employee.url | prepend: site.baseurl }}">{{ employee.title }} </a>
+                <a class="post__title" href="{{ employee.url | prepend: site.baseurl }}">{{ employee.link }} </a>
+                <div class="post__meta">
+                  <b class="post__author"></b>
+                  <b class="post__sep">&#x25cf;</b>
+                  <b class="post__date">{{ employee.date | date: "%b %-d, %Y" }}</b>
+                </div>
+                <a class="btn--default" href="{{ employee.url | prepend: site.baseurl }}">CHANGED</a>
+            <!-- </li> -->
+            </div>
+          {% endfor %}
+        </div>
+      </div>
 
     </div>
   </div>
-
 
   <!-- CTA -->
   <div class="ctawrapper">
