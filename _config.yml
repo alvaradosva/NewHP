@@ -14,14 +14,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-defaults:
-- scope:
-    path: ''
-    type: employees
-  values:
-    person:
-      image: 
-      link: 
 email: bluelabs@gmail.com
 description: 
 url: http://bluelabs.com
@@ -31,7 +23,6 @@ permalink: "/:title"
 github:
   url: http://localhost:4000
   baseurl: NewHP
-<<<<<<< HEAD
 defaults:
   -
     scope:
@@ -44,5 +35,3 @@ defaults:
         title:
 
 
-=======
->>>>>>> origin/gh-pages
