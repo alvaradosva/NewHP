@@ -78,8 +78,8 @@ layout: default
           {% for employee in site.employees %}
             <!-- <li class="post__item"> -->
             <div class="col-md-3 teammember">
-                <p>{{ employee.person.link }}</p>
                 <img src="{{ employee.person.image }}"/>
+                <a class="post__title" href="{{ employee.person.link }}"><i class="fa fa-linkedin fa-lg fa-fw"></i></a>
                 <a class="post__title" href="{{ employee.url | prepend: site.baseurl }}">{{ employee.title }} </a>
                 <div class="post__meta">
                   <b class="post__author"></b>
