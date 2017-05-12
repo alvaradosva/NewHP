@@ -1,0 +1,25 @@
+<div class="row">
+        <div class="maincontainer">
+        
+          {% set employees = cms.employees %}
+          {% for employee in employees|sort('name') %}
+            <div class="col-md-3 teammember">
+              <div class="image-wrapper">
+                <span class="image-overlay">
+                  <span class="content">
+                    <a href="{{ employee.website}}" class="empicon"><i class="fa fa-linkedin fa-lg fa-fw"></i></a>
+                    <a href="{{url(employee)}}" class="empicon"><i class="fa fa-newspaper-o fa-lg fa-fw"></i></a>
+                  </span>
+                </span>
+                <img src="{{employee.headshot|imageSize(142, 142)}}"  alt="employee headshot">
+              </div>
+
+              <a href="{{ employee.website }}" class="empicon2"><i class="fa fa-linkedin fa-lg fa-fw"></i></a>
+              <a href="{{url(employee)}}" class="empicon2"><i class="fa fa-newspaper-o fa-lg fa-fw"></i></a>    
+              <p class="leadertag centered"><a href="{{url(employee)}}">{{employee.name}}</a></p>
+              <p class="leadertitle centered blue"><a class="titletag">{{ employee.single_line_text }}</a></p>
+            </div> 
+          {% endfor %}
+
+      </div>
+    </div>
