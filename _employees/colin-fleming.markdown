@@ -1,9 +1,10 @@
 ---
-title: Colin Fleming
+title: Margaret Schwenzfeier
 date: 2017-05-12 15:43:00 Z
 person:
-  image: "/uploads/Vanessa.png"
-  link: www.bluelabs.com
+  image: "/uploads/Meg.png"
+  link: 'meg@bluelabs.com '
+  title: Data Scientist
 ---
 
 Bio Here
