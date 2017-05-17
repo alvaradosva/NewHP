@@ -199,6 +199,10 @@ ____________________*/
 .full {
   width: 100%;
 }
+
+.full2 {
+  width:auto;
+}
 .adwrapper {
   width: 100%;
   display: inline-block;
@@ -579,13 +583,16 @@ hr.linebreak2 {
      color: #fff; 
      display: none; 
 }
-.leadertag {
+/*.leadertag {
   font-size: 16px;
   padding: 1rem 0 .25rem 0;
-  margin-bottom: .25rem;
+  margin-bottom: .25rem;*/
 }
-.leadertag a {
+.leadertag {
   color: #48c0eb;
+  font-size: 16px;
+  padding: 2rem 0 .25rem 0;
+  margin-bottom: .25rem;
 }
 .leadertitle {
   padding-bottom: 4rem;
