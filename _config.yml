@@ -21,7 +21,7 @@ defaults:
   values:
     person:
       image: 
-      link:
+      link: 
       elink: 
       title: 
 email: bluelabs@gmail.com
