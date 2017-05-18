@@ -66,6 +66,7 @@ layout: default
   <!-- END HERO AREA -->
 
   <div class=container>
+
     <div class="row">
       <div class="col-md-12">
       
@@ -85,13 +86,13 @@ layout: default
           <div class="image-wrapper">
             <img src="{{ employee.person.image }}"/>
           </div>
-          <a class="post__title" href="{{ employee.person.link }}"><i class="fa fa-newspaper-o fa-lg fa-fw"></i></a>
+          <a class="post__title" href="{{ employee.person.elink }}"><i class="fa fa-newspaper-o fa-lg fa-fw"></i></a>
+          <a class="post__title" href="{{ employee.person.link }}"><i class="fa fa-linkedin fa-lg fa-fw"></i></a><br>
           <a class="leadertag" href="{{ employee.url | prepend: site.baseurl }}">{{ employee.title }} </a>
           <p class="leadertitle">{{ employee.person.title }}</p>
               <!-- </li> -->
         </div>
         {% endfor %}
-
       </div>
     </div>
 
