@@ -2,7 +2,7 @@
 title: Matthew Stafford
 date: 2017-05-18 18:08:00 Z
 person:
-  image: "/uploads/stafford.png"
+  image: "/uploads/stafford-c16f4c.png"
   link: https://www.linkedin.com/in/matthewjstafford
   elink: Matthew.Stafford@bluelabs.com
   title: Senior Engineer
