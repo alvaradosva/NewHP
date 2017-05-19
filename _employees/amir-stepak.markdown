@@ -2,7 +2,7 @@
 title: Amir Stepak
 date: 2017-05-18 18:22:00 Z
 person:
-  image: "/uploads/amir.png"
+  image: "/uploads/amir-0ecafb.png"
   link: https://www.linkedin.com/in/amir-stepak-ba08765
   elink: Amir.Stepak@bluelabs.com
   title: Director of Strategic Growth
