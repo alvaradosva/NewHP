@@ -1,0 +1,35 @@
+---
+title: Bluelabs Staging
+timezone: UTC
+collections:
+  employees:
+    title: Employees
+    output: true
+    person:
+      image: 
+      link: 
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: employees
+  values:
+    person:
+      image: 
+      link: 
+      elink: 
+      title: 
+email: bluelabs@gmail.com
+description: 
+url: http://bluelabs.com
+twitter_username: Blue_Labs
+markdown: kramdown
+permalink: "/:title"
+github:
+  url: http://localhost:4000
+  baseurl: NewHP
